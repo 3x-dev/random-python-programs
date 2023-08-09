@@ -1,0 +1,105 @@
+Enter the number of times you want to run the program: 2
+
+
+Run #1:
+Enter the number of people in your group: 3
+
+Person 1:
+Enter the first food item: chicken
+Enter the second food item: broccoli
+
+Main Dish: chicken
+Side Dish: broccoli
+Free Food: ice cream
+Total amount for Person 1: $45.17
+
+Person 2:
+Enter the first food item: broccoli
+Enter the second food item: chicken
+
+Main Dish: chicken
+Side Dish: broccoli
+Free Food: ice cream
+Total amount for Person 2: $45.17
+
+Person 3:
+Enter the first food item: steak
+Enter the second food item: rice
+
+Main Dish: steak
+Side Dish: rice
+Free Food: cookie
+Total amount for Person 3: $61.46
+
+Total price for the group: $151.81
+
+
+Run #2:
+Enter the number of people in your group: 5
+
+Person 1:
+Enter the first food item: potato
+Enter the second food item: steak
+
+Main Dish: steak
+Side Dish: potato
+Free Food: energy drink
+Total amount for Person 1: $64.20
+
+Person 2:
+Enter the first food item: fish
+Enter the second food item: fish
+
+Invalid dish order(s). Please try again.
+Enter the first food item: rice
+Enter the second food item: rice
+
+Invalid dish order(s). Please try again.
+Enter the first food item: chicken
+Enter the second food item: fish
+
+Invalid dish order(s). Please try again.
+Enter the first food item: salad
+Enter the second food item: rice
+
+Invalid dish order(s). Please try again.
+Enter the first food item: fries
+Enter the second food item: potato
+
+Invalid dish order(s). Please try again.
+Enter the first food item: fish
+Enter the second food item: rice
+
+Main Dish: fish
+Side Dish: rice
+Free Food: cupcake
+Total amount for Person 2: $52.05
+
+Person 3:
+Enter the first food item: turkey
+Enter the second food item: salad
+
+Main Dish: turkey
+Side Dish: salad
+Free Food: cheesecake
+Total amount for Person 3: $58.03
+
+Person 4:
+Enter the first food item: salad
+Enter the second food item: turkey
+
+Main Dish: turkey
+Side Dish: salad
+Free Food: cheesecake
+Total amount for Person 4: $58.03
+
+Person 5:
+Enter the first food item: broccoli
+Enter the second food item: chicken
+
+Main Dish: chicken
+Side Dish: broccoli
+Free Food: ice cream
+Total amount for Person 5: $45.17
+
+Total price for the group: $277.47

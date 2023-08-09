@@ -1,0 +1,441 @@
+Description of first output file: This file tests all the possible conditions users can input and handles them gracefully. All activity registrations are saved in their respective text files and preserved for subsequent test sessions. This implies that any activity registrations made during this test session will be stored for future testing sessions.
+At the beginning of this session, all signup files are empty. At the end of this session, there are 5 people registered for the art activity and 5 people registered for the basketball activity. All registrations are stored in their respective activity_signups.txt files.
+
+
+1. Dictionary -- line 95
+
+
+Hello! Welcome to Aryan's Summer Camp Registration System.
+
+Aryan's Summer Camp Registration Dashboard:
+1 - Display camp activities and respective status
+2 - Register for an activity
+3 - Check number of spots available for an activity
+4 - Exit camp registration system
+
+Please choose an option (1, 2, 3, or 4): 5
+
+Invalid choice! Please try again.
+
+Aryan's Summer Camp Registration Dashboard:
+1 - Display camp activities and respective status
+2 - Register for an activity
+3 - Check number of spots available for an activity
+4 - Exit camp registration system
+
+Please choose an option (1, 2, 3, or 4): cancel
+
+Invalid choice! Please try again.
+
+Aryan's Summer Camp Registration Dashboard:
+1 - Display camp activities and respective status
+2 - Register for an activity
+3 - Check number of spots available for an activity
+4 - Exit camp registration system
+
+Please choose an option (1, 2, 3, or 4): 1
+
+Camp Activities:
+# Reading basketball_signups.txt file
+BASKETBALL - AVAILABLE
+# Reading swimming_signups.txt file
+SWIMMING - AVAILABLE
+# Reading dance_signups.txt file
+DANCE - AVAILABLE
+# Reading art_signups.txt file
+ART - AVAILABLE
+
+Aryan's Summer Camp Registration Dashboard:
+1 - Display camp activities and respective status
+2 - Register for an activity
+3 - Check number of spots available for an activity
+4 - Exit camp registration system
+
+Please choose an option (1, 2, 3, or 4): 2
+
+Please provide the name of the individual you wish to register for the activity (enter 'cancel' to cancel registration): CanceL
+
+Action cancelled!
+
+Aryan's Summer Camp Registration Dashboard:
+1 - Display camp activities and respective status
+2 - Register for an activity
+3 - Check number of spots available for an activity
+4 - Exit camp registration system
+
+Please choose an option (1, 2, 3, or 4): 2
+
+Please provide the name of the individual you wish to register for the activity (enter 'cancel' to cancel registration): Tom
+Please provide the desired activity name you want to register for (enter 'cancel' to cancel registration): Hockey
+
+Invalid activity name. Valid activities to choose from: Basketball, Swimming, Dance, Art. Please try again.
+
+Please provide the desired activity name you want to register for (enter 'cancel' to cancel registration): football
+
+Invalid activity name. Valid activities to choose from: Basketball, Swimming, Dance, Art. Please try again.
+
+Please provide the desired activity name you want to register for (enter 'cancel' to cancel registration): 4
+
+Invalid activity name. Valid activities to choose from: Basketball, Swimming, Dance, Art. Please try again.
+
+Please provide the desired activity name you want to register for (enter 'cancel' to cancel registration): Cancel
+
+Action cancelled!
+
+Aryan's Summer Camp Registration Dashboard:
+1 - Display camp activities and respective status
+2 - Register for an activity
+3 - Check number of spots available for an activity
+4 - Exit camp registration system
+
+Please choose an option (1, 2, 3, or 4): 2
+
+Please provide the name of the individual you wish to register for the activity (enter 'cancel' to cancel registration): cancel
+
+Action cancelled!
+
+Aryan's Summer Camp Registration Dashboard:
+1 - Display camp activities and respective status
+2 - Register for an activity
+3 - Check number of spots available for an activity
+4 - Exit camp registration system
+
+Please choose an option (1, 2, 3, or 4): 2
+
+Please provide the name of the individual you wish to register for the activity (enter 'cancel' to cancel registration): Tom
+Please provide the desired activity name you want to register for (enter 'cancel' to cancel registration): ART
+# Reading art_signups.txt file to make sure spots are open
+
+Successfully registered Tom for art! Tom's registration has been added to the art_signups.txt file.
+
+Aryan's Summer Camp Registration Dashboard:
+1 - Display camp activities and respective status
+2 - Register for an activity
+3 - Check number of spots available for an activity
+4 - Exit camp registration system
+
+Please choose an option (1, 2, 3, or 4): 3
+
+Please provide the desired activity name you want to check spots for (enter 'cancel' to cancel): 5
+
+Invalid activity name. Valid activities to choose from: Basketball, Swimming, Dance, Art. Please try again.
+
+Please provide the desired activity name you want to check spots for (enter 'cancel' to cancel): football
+
+Invalid activity name. Valid activities to choose from: Basketball, Swimming, Dance, Art. Please try again.
+
+Please provide the desired activity name you want to check spots for (enter 'cancel' to cancel): Art
+# Reading art_signups.txt file
+
+Number of spots available for art: 4/5
+
+Please provide the desired activity name you want to check spots for (enter 'cancel' to cancel): basketball
+# Reading basketball_signups.txt file
+
+Number of spots available for basketball: 10/10
+
+Please provide the desired activity name you want to check spots for (enter 'cancel' to cancel): cancel
+
+Action cancelled!
+
+Aryan's Summer Camp Registration Dashboard:
+1 - Display camp activities and respective status
+2 - Register for an activity
+3 - Check number of spots available for an activity
+4 - Exit camp registration system
+
+Please choose an option (1, 2, 3, or 4): 2
+
+Please provide the name of the individual you wish to register for the activity (enter 'cancel' to cancel registration): tim
+Please provide the desired activity name you want to register for (enter 'cancel' to cancel registration): basketball
+# Reading basketball_signups.txt file to make sure spots are open
+
+Successfully registered tim for basketball! tim's registration has been added to the basketball_signups.txt file.
+
+Aryan's Summer Camp Registration Dashboard:
+1 - Display camp activities and respective status
+2 - Register for an activity
+3 - Check number of spots available for an activity
+4 - Exit camp registration system
+
+Please choose an option (1, 2, 3, or 4): 2
+
+Please provide the name of the individual you wish to register for the activity (enter 'cancel' to cancel registration): alex
+Please provide the desired activity name you want to register for (enter 'cancel' to cancel registration): ARt
+# Reading art_signups.txt file to make sure spots are open
+
+Successfully registered alex for art! alex's registration has been added to the art_signups.txt file.
+
+Aryan's Summer Camp Registration Dashboard:
+1 - Display camp activities and respective status
+2 - Register for an activity
+3 - Check number of spots available for an activity
+4 - Exit camp registration system
+
+Please choose an option (1, 2, 3, or 4): 2
+
+Please provide the name of the individual you wish to register for the activity (enter 'cancel' to cancel registration): Fred
+Please provide the desired activity name you want to register for (enter 'cancel' to cancel registration): basketball
+# Reading basketball_signups.txt file to make sure spots are open
+
+Successfully registered Fred for basketball! Fred's registration has been added to the basketball_signups.txt file.
+
+Aryan's Summer Camp Registration Dashboard:
+1 - Display camp activities and respective status
+2 - Register for an activity
+3 - Check number of spots available for an activity
+4 - Exit camp registration system
+
+Please choose an option (1, 2, 3, or 4): 2
+
+Please provide the name of the individual you wish to register for the activity (enter 'cancel' to cancel registration): alex
+Please provide the desired activity name you want to register for (enter 'cancel' to cancel registration): basketball
+# Reading basketball_signups.txt file to make sure spots are open
+
+Successfully registered alex for basketball! alex's registration has been added to the basketball_signups.txt file.
+
+Aryan's Summer Camp Registration Dashboard:
+1 - Display camp activities and respective status
+2 - Register for an activity
+3 - Check number of spots available for an activity
+4 - Exit camp registration system
+
+Please choose an option (1, 2, 3, or 4): 1
+
+Camp Activities:
+# Reading basketball_signups.txt file
+BASKETBALL - AVAILABLE
+# Reading swimming_signups.txt file
+SWIMMING - AVAILABLE
+# Reading dance_signups.txt file
+DANCE - AVAILABLE
+# Reading art_signups.txt file
+ART - AVAILABLE
+
+Aryan's Summer Camp Registration Dashboard:
+1 - Display camp activities and respective status
+2 - Register for an activity
+3 - Check number of spots available for an activity
+4 - Exit camp registration system
+
+Please choose an option (1, 2, 3, or 4): 2
+
+Please provide the name of the individual you wish to register for the activity (enter 'cancel' to cancel registration): John
+Please provide the desired activity name you want to register for (enter 'cancel' to cancel registration): Art
+# Reading art_signups.txt file to make sure spots are open
+
+Successfully registered John for art! John's registration has been added to the art_signups.txt file.
+
+Aryan's Summer Camp Registration Dashboard:
+1 - Display camp activities and respective status
+2 - Register for an activity
+3 - Check number of spots available for an activity
+4 - Exit camp registration system
+
+Please choose an option (1, 2, 3, or 4): 2
+
+Please provide the name of the individual you wish to register for the activity (enter 'cancel' to cancel registration): Ralph
+Please provide the desired activity name you want to register for (enter 'cancel' to cancel registration): CANCEL
+
+Action cancelled!
+
+Aryan's Summer Camp Registration Dashboard:
+1 - Display camp activities and respective status
+2 - Register for an activity
+3 - Check number of spots available for an activity
+4 - Exit camp registration system
+
+Please choose an option (1, 2, 3, or 4): 2
+
+Please provide the name of the individual you wish to register for the activity (enter 'cancel' to cancel registration): Aryan
+Please provide the desired activity name you want to register for (enter 'cancel' to cancel registration): Art
+# Reading art_signups.txt file to make sure spots are open
+
+Successfully registered Aryan for art! Aryan's registration has been added to the art_signups.txt file.
+
+Aryan's Summer Camp Registration Dashboard:
+1 - Display camp activities and respective status
+2 - Register for an activity
+3 - Check number of spots available for an activity
+4 - Exit camp registration system
+
+Please choose an option (1, 2, 3, or 4): 2
+
+Please provide the name of the individual you wish to register for the activity (enter 'cancel' to cancel registration): Nathan
+Please provide the desired activity name you want to register for (enter 'cancel' to cancel registration): artt
+
+Invalid activity name. Valid activities to choose from: Basketball, Swimming, Dance, Art. Please try again.
+
+Please provide the desired activity name you want to register for (enter 'cancel' to cancel registration): art
+# Reading art_signups.txt file to make sure spots are open
+
+Successfully registered Nathan for art! Nathan's registration has been added to the art_signups.txt file.
+
+Aryan's Summer Camp Registration Dashboard:
+1 - Display camp activities and respective status
+2 - Register for an activity
+3 - Check number of spots available for an activity
+4 - Exit camp registration system
+
+Please choose an option (1, 2, 3, or 4): 3
+
+Please provide the desired activity name you want to check spots for (enter 'cancel' to cancel): art
+# Reading art_signups.txt file
+
+Number of spots available for art: 0/5
+
+Please provide the desired activity name you want to check spots for (enter 'cancel' to cancel): cancel
+
+Action cancelled!
+
+Aryan's Summer Camp Registration Dashboard:
+1 - Display camp activities and respective status
+2 - Register for an activity
+3 - Check number of spots available for an activity
+4 - Exit camp registration system
+
+Please choose an option (1, 2, 3, or 4): 1
+
+Camp Activities:
+# Reading basketball_signups.txt file
+BASKETBALL - AVAILABLE
+# Reading swimming_signups.txt file
+SWIMMING - AVAILABLE
+# Reading dance_signups.txt file
+DANCE - AVAILABLE
+# Reading art_signups.txt file
+ART - FULL
+
+Aryan's Summer Camp Registration Dashboard:
+1 - Display camp activities and respective status
+2 - Register for an activity
+3 - Check number of spots available for an activity
+4 - Exit camp registration system
+
+Please choose an option (1, 2, 3, or 4): 2
+
+Please provide the name of the individual you wish to register for the activity (enter 'cancel' to cancel registration): Dominic
+Please provide the desired activity name you want to register for (enter 'cancel' to cancel registration): aRt
+
+Sorry, no available spots for art. Please choose another activity.
+
+Please provide the desired activity name you want to register for (enter 'cancel' to cancel registration): Basketball
+# Reading basketball_signups.txt file to make sure spots are open
+
+Successfully registered Dominic for basketball! Dominic's registration has been added to the basketball_signups.txt file.
+
+Aryan's Summer Camp Registration Dashboard:
+1 - Display camp activities and respective status
+2 - Register for an activity
+3 - Check number of spots available for an activity
+4 - Exit camp registration system
+
+Please choose an option (1, 2, 3, or 4): 3
+
+Please provide the desired activity name you want to check spots for (enter 'cancel' to cancel): basketball
+# Reading basketball_signups.txt file
+
+Number of spots available for basketball: 6/10
+
+Please provide the desired activity name you want to check spots for (enter 'cancel' to cancel): 3
+
+Invalid activity name. Valid activities to choose from: Basketball, Swimming, Dance, Art. Please try again.
+
+Please provide the desired activity name you want to check spots for (enter 'cancel' to cancel): cancel
+
+Action cancelled!
+
+Aryan's Summer Camp Registration Dashboard:
+1 - Display camp activities and respective status
+2 - Register for an activity
+3 - Check number of spots available for an activity
+4 - Exit camp registration system
+
+Please choose an option (1, 2, 3, or 4): 2
+
+Please provide the name of the individual you wish to register for the activity (enter 'cancel' to cancel registration): Sammy
+Please provide the desired activity name you want to register for (enter 'cancel' to cancel registration): i want basketball
+
+Invalid activity name. Valid activities to choose from: Basketball, Swimming, Dance, Art. Please try again.
+
+Please provide the desired activity name you want to register for (enter 'cancel' to cancel registration): art
+
+Sorry, no available spots for art. Please choose another activity.
+
+Please provide the desired activity name you want to register for (enter 'cancel' to cancel registration): cAncel
+
+Action cancelled!
+
+Aryan's Summer Camp Registration Dashboard:
+1 - Display camp activities and respective status
+2 - Register for an activity
+3 - Check number of spots available for an activity
+4 - Exit camp registration system
+
+Please choose an option (1, 2, 3, or 4): 2
+
+Please provide the name of the individual you wish to register for the activity (enter 'cancel' to cancel registration): JOhn
+Please provide the desired activity name you want to register for (enter 'cancel' to cancel registration): Basketball
+# Reading basketball_signups.txt file to make sure spots are open
+
+Successfully registered JOhn for basketball! JOhn's registration has been added to the basketball_signups.txt file.
+
+Aryan's Summer Camp Registration Dashboard:
+1 - Display camp activities and respective status
+2 - Register for an activity
+3 - Check number of spots available for an activity
+4 - Exit camp registration system
+
+Please choose an option (1, 2, 3, or 4): 1
+
+Camp Activities:
+# Reading basketball_signups.txt file
+BASKETBALL - AVAILABLE
+# Reading swimming_signups.txt file
+SWIMMING - AVAILABLE
+# Reading dance_signups.txt file
+DANCE - AVAILABLE
+# Reading art_signups.txt file
+ART - FULL
+
+Aryan's Summer Camp Registration Dashboard:
+1 - Display camp activities and respective status
+2 - Register for an activity
+3 - Check number of spots available for an activity
+4 - Exit camp registration system
+
+Please choose an option (1, 2, 3, or 4): 3
+
+Please provide the desired activity name you want to check spots for (enter 'cancel' to cancel): ART
+# Reading art_signups.txt file
+
+Number of spots available for art: 0/5
+
+Please provide the desired activity name you want to check spots for (enter 'cancel' to cancel): BASKETBALL
+# Reading basketball_signups.txt file
+
+Number of spots available for basketball: 5/10
+
+Please provide the desired activity name you want to check spots for (enter 'cancel' to cancel): SWIMMING
+# Reading swimming_signups.txt file
+
+Number of spots available for swimming: 10/10
+
+Please provide the desired activity name you want to check spots for (enter 'cancel' to cancel): DANCE
+# Reading dance_signups.txt file
+
+Number of spots available for dance: 5/5
+
+Please provide the desired activity name you want to check spots for (enter 'cancel' to cancel): CANCEL
+
+Action cancelled!
+
+Aryan's Summer Camp Registration Dashboard:
+1 - Display camp activities and respective status
+2 - Register for an activity
+3 - Check number of spots available for an activity
+4 - Exit camp registration system
+
+Please choose an option (1, 2, 3, or 4): 4
+
+Exiting Aryan's camp registration system. Thank you!
